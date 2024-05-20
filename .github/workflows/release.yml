@@ -2,7 +2,7 @@ name: Make a release with artifacts
 on:
   push:
     tags:
-      - v*
+      - "*"
 permissions:
   packages: write
   contents: write
