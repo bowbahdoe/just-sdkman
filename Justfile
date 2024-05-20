@@ -33,7 +33,7 @@ unzip version:
     tar -xvzf build/releases/just-{{version}}-x86_64-apple-darwin.tar.gz -C build/unzipped/just-{{version}}-x86_64-apple-darwin
 
     mkdir -p build/unzipped/just-{{version}}-x86_64-pc-windows-msvc
-    tar -xvzf build/releases/just-{{version}}-x86_64-pc-windows-msvc.zip -C build/unzipped/just-{{version}}-x86_64-pc-windows-msvc
+    unzip -d build/unzipped/just-{{version}}-x86_64-pc-windows-msvc build/releases/just-{{version}}-x86_64-pc-windows-msvc.zip 
 
     mkdir -p build/unzipped/just-{{version}}-x86_64-unknown-linux-musl
     tar -xvzf build/releases/just-{{version}}-x86_64-unknown-linux-musl.tar.gz -C build/unzipped/just-{{version}}-x86_64-unknown-linux-musl
