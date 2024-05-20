@@ -27,3 +27,5 @@ jobs:
             build/final/just-1.26.0-x86_64-apple-darwin.tar.gz
             build/final/just-1.26.0-x86_64-pc-windows-msvc.tar.gz
             build/final/just-1.26.0-x86_64-unknown-linux-musl.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
