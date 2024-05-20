@@ -9,5 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: extractions/setup-just@v2
-      - name: test
+      - name: download
         run: just download 1.26.0
+      - name: unzip
+        run: just unzip 1.26.0
+      - name: repackage
+        run: just repackage 1.26.0
+      - name: final
+        run: just final 1.26.0
