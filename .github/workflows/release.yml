@@ -2,7 +2,7 @@ name: Make a release with artifacts
 on:
   push:
     tags:
-      - *
+      - v*
 jobs:
   publish:
     runs-on: ubuntu-latest
