@@ -1,5 +1,5 @@
 name: Make a release with artifacts
-on: push
+on: workflow_dispatch
 permissions:
   packages: write
   contents: write
