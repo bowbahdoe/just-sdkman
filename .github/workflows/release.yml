@@ -1,5 +1,5 @@
 name: Make a release with artifacts
-on: workflow_dispatch
+on: push
 jobs:
   publish:
     runs-on: ubuntu-latest
